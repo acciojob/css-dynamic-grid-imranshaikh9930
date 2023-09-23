@@ -19,3 +19,15 @@
 	align-items:center;
 	font-size:40px;
 }
+
+@media screen and (max-width:768px){
+	.grid-container{
+		display:flex;
+		flex-wrap:wrap;
+		flex-direction:flex-start;
+	}
+	.grid-item{
+		flex-wrap:wrap;
+		flex-direction:flex-start;
+	}
+}
